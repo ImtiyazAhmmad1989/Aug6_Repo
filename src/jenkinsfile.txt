@@ -16,18 +16,24 @@ pipeline{
 	
 	stage('Calling m1()'){
 	
+	steps{
 	script{
 	
 	utilScript.m1()
 	}
 	}
+	}
 	
 	stage('Calling m2()' ){
+	steps{
+	
 	script{
 	
 	utilScript.m2()
 	
 	}
+	}
+	
 	}
 	
 	}

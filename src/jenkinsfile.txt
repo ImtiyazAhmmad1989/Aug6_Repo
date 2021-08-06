@@ -1,3 +1,5 @@
+@Library('aug6-shared-lib') _
+
 pipeline{
 
 	agent{

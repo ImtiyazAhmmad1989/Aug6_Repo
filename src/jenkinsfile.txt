@@ -19,7 +19,7 @@ pipeline{
 	steps{
 	script{
 	
-	utilScript.m1()
+	utilScritpt.m1()
 	}
 	}
 	}
@@ -29,7 +29,7 @@ pipeline{
 	
 	script{
 	
-	utilScript.m2()
+	utilScritpt.m2()
 	
 	}
 	}

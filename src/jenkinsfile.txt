@@ -1,0 +1,39 @@
+pipeline{
+
+	agent{
+	
+	label 'agent1'
+	}
+	
+	
+	stages{
+	
+	stage('Parallel run') {
+	
+	parallel{
+	
+	stage('Calling m1()'){
+	
+	script{
+	
+	utilScript.m1()
+	}
+	}
+	
+	stage('Calling ){
+	script{
+	
+	utilScript.m2()
+	
+	}
+	}
+	
+	}
+	
+	}
+	
+	
+	}
+	
+
+}
